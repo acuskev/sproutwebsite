@@ -1,2 +1,2 @@
 # sproutwebsite
-Sprout is cool !
+Sprout is cool!
