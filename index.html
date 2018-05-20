@@ -1,54 +1,71 @@
 <html>
 <head>
-    <title>EPIC Sprout</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="script.js"></script>
+  <title>EPIC Sprout</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <script src="script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
-<div id = "section-1">
-  <div id ="logo">
-    <img src="sprout.png" alt="sprout-logo" height="224" width="200">
-  </div>
-  <div id = "title">EPIC Sprout</div>
-  <div id="apply-button">
-    <button type="button" class="btn btn-primary" onclick="animate()">Apply Now</button>
-  </div>
-
-</div>
-
-<div id="section-2">
-  <div class="text-field">
-    <h2>The Trip</h2>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="text-field">
-    <h2>The Experience</h2>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div id = "section-1">
+    <div class = "center-wrapper">
+      <img src="sprout.png" class="logo" alt="sprout-logo" height="224" width="200">
+      <h1>EPIC Sprout</h1>
+      <div id="apply-button"><button type="button" class="btn btn-primary" onclick="animate()">Apply Now</button></div>
+    </div>
   </div>
 
-</div>
+  <div id="section-2">
+    <div class="text-field">
+      <h2>The Trip</h2>
 
-<div id="section-3">
-    <h2>Highlights</h2>
-</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="text-field">
+      <h2>The Experience</h2>
 
-<div id="section-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+
+  <div id="section-3" class="center-wrapper">
+    <h2 style="color: black">Highlights</h2>
+  </div>
+
+  <div id="section-4" class="center-wrapper">
     <h2>Before Trip, During Trip, After Trip</h2>
+  </div>
 
+  <!--
+  <div id="section-5">
+  <div class="center-wrapper">
+  Yo
 </div>
+</div> -->
 </body>
 
 <footer>
-    &copy; EPIC 2018<br>
+  <div class="wrapper">
+    <form action="https://formspree.io/nusprout@gmail.com" method="POST">
+      <h2>Contact Us</h2>
+      <input type="text" id="name" name="name" placeholder="Name">
+      <input type="text" id="email" name="email" placeholder="Email">
+      <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+      <input type="submit" value="Submit" value="Send">
+    </form>
+  </div>
+  <div class="center-wrapper copyright">
+    Made with love at <a href="https://www.northwestern.edu">Northwestern</a> <a href="https://www.epicnorthwestern.com">EPIC</a>!
+    <br><br>
     <a href="" class="fa fa-facebook" target="_blank"></a>
     <a href="" class="fa fa-instagram" target="_blank"></a>
     <a href="mailto:nusprout@gmail.com" class="fa fa-envelope" target="_blank"></a>
     <a href="https://medium.com/epicnorthwestern/takeaways-from-sprout-2017-aadeffdcdad8" class="fa fa-medium" target="_blank"></a>
+  </div>
 </footer>
 </html>
