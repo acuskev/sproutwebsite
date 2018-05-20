@@ -1,0 +1,185 @@
+body {
+    background-color: white;
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 24px;
+}
+
+/** Title Heading **/
+h1 {
+    font-size: 100px;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+
+/** Section Headings **/
+h2 {
+    font-size: 40px;
+    color: black;
+    text-align:center;
+    height: 40px;
+    vertical-align:middle;
+}
+
+footer {
+    padding: 20px 20px 30px 20px;
+    font-family: 'Lato';
+    color: black;
+    text-align: center;
+}
+
+
+#section-1 {
+    background-color: #204d74;
+    //background: linear-gradient(45deg, #2080ad, #f85060);
+    font-family: "Lato";
+
+}
+
+
+#section-2 {
+    background-color: white;
+    padding: 80px 250px 80px 250px;
+
+}
+
+
+#section-3 {
+    background-color: lightsteelblue;
+    text-align: center;
+    padding: 40px 100px;
+    color: black;
+}
+
+#section-4 {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 40px 100px;
+    color: black;
+    
+}
+.button_content {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.underline {
+    border-bottom: 1px solid currentColor;
+}
+
+.underline:hover {
+    color: blue;
+}
+
+.location {
+    font-size: 32px;
+    color: royalblue;
+    height: 10px;
+}
+
+.description {
+    font-size: 24px;
+    color: darkgreen;
+}
+
+
+/**Social Media**/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: royalblue;
+    color: white;
+}
+
+.fa-instagram {
+    background: purple;
+    color: white;
+}
+
+.fa-envelope {
+    background: #cb2027;
+    color: white;
+}
+.fa-medium {
+    background: #009000;
+    color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 20%;
+  max-width: 100%;
+  padding: 0 0px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    display:inline-block;
+    margin: 0 auto;
+}
+
