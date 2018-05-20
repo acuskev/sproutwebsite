@@ -31,3 +31,10 @@ tab
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+<button class="tablinks" onclick="openTab(event, 'Before Trip')" id="defaultOpen">Before Trip</button>
+
+<script>
+document.getElementByID("defaultOpen").click();
+</script>
+
