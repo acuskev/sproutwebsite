@@ -21,6 +21,18 @@ h1 {
     text-align:center;
 }
 
+/** Apply Now Button **/
+Apply{
+    font-size:40px;
+    font-family: Lato; 
+    color: white;
+    horizontal-align: middle;
+    padding: 20px 20px 100 px 20 px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-aligh:center;
+}
+
 /** Section Headings **/
 h2 {
     font-size: 40px;
