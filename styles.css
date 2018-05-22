@@ -7,7 +7,7 @@ body {
 }
 
 p {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 /** Title Heading **/
@@ -24,18 +24,23 @@ h1 {
 
 /** Section Headings **/
 h2 {
-    font-size: 40px;
-    color: black;
-    text-align:center;
-    height: 40px;
-    vertical-align:middle;
+  text-align:center;
+  height: 40px;
+  vertical-align:middle;
+  font-size: 24px;
+  color: rgb(41, 160, 158);
+  font-weight: 900;
 }
 
 footer {
-    padding: 20px 20px 30px 20px;
-    font-family: 'Lato';
-    color: black;
-    text-align: center;
+  font-family: 'Lato';
+  color: black;
+  font-weight: bold;
+  background-color: black;
+}
+
+.copyright {
+  background-color: lightgrey;
 }
 
 #section-1 {
@@ -51,7 +56,7 @@ footer {
 }
 
 #section-3 {
-    background-color: lightsteelblue;
+    background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
     text-align: center;
     padding: 40px 100px;
     color: black;
@@ -73,6 +78,7 @@ footer {
   font-size: 60px;
   padding: 10px;
   font-weight:bold;
+  font-family: "Lato";
 }
 
 #logo {
@@ -106,31 +112,31 @@ footer {
 }**/
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-    color: blue;
+  color: blue;
 }
 
 .underline {
-    border-bottom: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
 }
 
 .underline:hover {
-    color: blue;
+  color: blue;
 }
 
 .location {
-    font-size: 32px;
-    color: royalblue;
-    height: 10px;
+  font-size: 32px;
+  color: royalblue;
+  height: 10px;
 }
 
 .description {
-    font-size: 24px;
-    color: darkgreen;
+  font-size: 24px;
+  color: darkgreen;
 }
 
 .tab{
@@ -167,35 +173,78 @@ a:hover {
 /**Social Media**/
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
-    background: royalblue;
-    color: white;
+  background: royalblue;
+  color: white;
 }
 
 .fa-instagram {
-    background: purple;
-    color: white;
+  background: purple;
+  color: white;
 }
 
 .fa-envelope {
-    background: #cb2027;
-    color: white;
+  background: #cb2027;
+  color: white;
 }
 .fa-medium {
-    background: #009000;
+  background: #009000;
+  color: white;
+}
+
+#section-5 {
+  height: 100%;
+  background-color: pink;
+}
+
+.wrapper {
+  padding: 30px 60px;
+}
+
+.center-wrapper {
+  text-align: center;
+  padding: 30px 60px;
+}
+
+
+input[type=text], textarea {
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+#name, #email {
+    display: inline-block;
+    width: 49.86%;
+}
+#message {
+  width: 100%;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(41, 160, 158);
     color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .row {
