@@ -43,19 +43,18 @@ footer {
   background-color: lightgrey;
 }
 
-<<<<<<< HEAD
+
 .text-field {
   float: left;
   width: 48%;
   margin: 1%;
 
-=======
+}
 #section-1 {
     background-color: #204d74;
     /**background: linear-gradient(45deg, #2080ad, #f85060);**/
     background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
     font-family: "Lato";
->>>>>>> 6feb2876418a6db58c96fbcfe0e395bd18955844
 }
 
 #section-2 {
@@ -74,23 +73,17 @@ footer {
     text-align: center;
     padding: 40px 100px;
     color: black;
-    
+
 }
 
 .inner {
   margin: auto;
 }
 
-<<<<<<< HEAD
-#section-1 {
-  height: 90%;
-  padding: 100px;
-  background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
-=======
+
 #logo {
   text-align: center;
   padding: 10px;
->>>>>>> 6feb2876418a6db58c96fbcfe0e395bd18955844
 }
 
 .text-field {
@@ -254,7 +247,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
+
 .outer-div
 {
   padding: 60px;
@@ -268,7 +261,7 @@ input[type=submit] {
   background-color: #ccc;
   border-radius: 3px;
 }
-=======
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -300,7 +293,7 @@ input[type=submit] {
 }
 /**
 .button {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 20px;
@@ -314,4 +307,3 @@ input[type=submit] {
     margin: 0 auto;
 }
 **/
->>>>>>> 6feb2876418a6db58c96fbcfe0e395bd18955844
