@@ -1,26 +1,35 @@
 body {
-  background-color: white;
-  font-family: 'Lato';
-  font-weight: 600;
+    background-color: white;
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
 }
 
-/** Title Headings **/
+p {
+    font-size: 20px;
+}
+
+/** Title Heading **/
 h1 {
-  font-size: 70px;
-  color: white;
-  font-weight: bold;
+    font-size: 100px;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
 }
 
 
 /** Section Headings **/
 h2 {
+  text-align:center;
+  height: 40px;
+  vertical-align:middle;
   font-size: 24px;
   color: rgb(41, 160, 158);
   font-weight: 900;
-}
-
-p {
-  font-size: 20px;
 }
 
 footer {
@@ -34,45 +43,80 @@ footer {
   background-color: lightgrey;
 }
 
+<<<<<<< HEAD
 .text-field {
   float: left;
   width: 48%;
   margin: 1%;
 
+=======
+#section-1 {
+    background-color: #204d74;
+    /**background: linear-gradient(45deg, #2080ad, #f85060);**/
+    background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
+    font-family: "Lato";
+>>>>>>> 6feb2876418a6db58c96fbcfe0e395bd18955844
 }
 
-#apply-button {
-  padding: 10px;
-  text-align: center;
+#section-2 {
+    background-color: white;
+    padding: 80px 80px;
+}
+
+#section-3 {
+    background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
+    text-align: center;
+    padding: 40px 100px;
+    color: black;
+}
+#section-4 {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 40px 100px;
+    color: black;
+    
 }
 
 .inner {
   margin: auto;
 }
 
+<<<<<<< HEAD
 #section-1 {
   height: 90%;
   padding: 100px;
   background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
+=======
+#logo {
+  text-align: center;
+  padding: 10px;
+>>>>>>> 6feb2876418a6db58c96fbcfe0e395bd18955844
 }
 
-
-#section-2 {
-  background-color: white;
-  padding: 30px 60px;
-  height: 60%;
+.text-field {
+  float: left;
+  width: 48%;
+  margin: 1%;
 }
 
-#section-3 {
-  background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
-  height: 50%;
+.btn {
+  padding: 10px;
 }
 
-#section-4 {
-  background-color: lightgrey;
-  height: 60%;
-  color: black;
+#apply-button {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40;
 }
+
+/**.button_content {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40;
+    color: black;
+}**/
 
 a {
   text-decoration: none;
@@ -210,6 +254,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .outer-div
 {
   padding: 60px;
@@ -223,3 +268,50 @@ input[type=submit] {
   background-color: #ccc;
   border-radius: 3px;
 }
+=======
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 30%;
+  max-width: 100%;
+  padding: 0 10px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/**
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    display:inline-block;
+    margin: 0 auto;
+}
+**/
+>>>>>>> 6feb2876418a6db58c96fbcfe0e395bd18955844
