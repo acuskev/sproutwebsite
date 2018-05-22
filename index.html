@@ -13,28 +13,31 @@
 
 <body>
   <div id = "section-1">
-    <div class = "center-wrapper">
+    <div class = "center-wrapper" id="inner">
       <img src="sprout.png" class="logo" alt="sprout-logo" height="224" width="200">
       <h1>EPIC Sprout</h1>
       <div id="apply-button"><button type="button" class="btn btn-primary" onclick="animate()">Apply Now</button></div>
     </div>
   </div>
 
+  <div class="outer-div"><div class="inner-div"></div></div>
+
   <div id="section-2">
     <div class="text-field">
       <h2>The Trip</h2>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p><i>Sprout</i> is Northwestern’s annual Winter Break trip that brings 25 NU students to Silicon Valley for a week of awesome site visits as well as conversations and events with incredible alumni. The trip, a week-long crash-course in entrepreneurship, offers a glimpse into life at innovative and entrepreneurial ventures like Facebook, Indiegogo, or 500 Startups, and alters the ideas and mindset of students who attend the trip for the rest of their lives.</p>
     </div>
     <div class="text-field">
       <h2>The Experience</h2>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Northwestern students dive into the heart and soul of Silicon Valley, meeting and understanding the minds of some of the most talented people in their respective industries. Between the site visits, dinners and Q&As with alums (did we mention utilizing Northwestern’s brand new downtown SF campus), real-world challenges and exploring The Bay, this immersive trip will bring a wisdom and excitement to students that can’t be found anywhere else.</p>
     </div>
   </div>
 
   <div id="section-3" class="center-wrapper">
     <h2 style="color: black">Highlights</h2>
+    <p>1 Week || 25 Northwestern Students || 15 Legendary Leaders || ∞ Amazing Experiences & Memories</p>
   </div>
 
   <div id="section-4" class="center-wrapper">
@@ -42,7 +45,7 @@
 </div>
 
 <div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'Before Trip')id="defaultOpen">Before Trip</button>
+    <button class="tablinks" onclick="openTab(event, 'Before Trip')" id="defaultOpen">Before Trip</button>
     <button class="tablinks" onclick="openTab(event, 'During Trip')">During Trip</button>
     <button class="tablinks" onclick="openTab(event, 'After Trip')">After Trip</button>
 </div>
@@ -61,6 +64,7 @@
     <h3>After Trip</h3>
     <p> test </p>
 </div>
+
 
 <script>
 document.getElementByID("defaultOpen").click();
