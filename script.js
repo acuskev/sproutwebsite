@@ -14,27 +14,22 @@ function animate() {
   }
 }
 
-function openTab(event, tabName){
-  var i, tabcontent, tablinks;
+function openTab(tabLinkName, tabName) {
+    var i, tabs, tablinks;
+    x = document.getElementsByClassName("tab"); //x are the tabs
+    for (i = 0; i < x.length; i++) {
+        //make every tab not display
+        x[i].style.display = "none";
+    }
+    //make tab selected display
+    document.getElementById(tabName).style.display = "block";
 
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for(i = 0; i < tabcontent.length; i++){
-    tabcontent[i].style.display = "none";
-  }
-
-  tablinks = document.getElementsByClassName("tablinks");
-  for(i = 0; i < tablinks.length; i++){
-    tablinks[i].className = tablinks[i].className.replace(" active","");
-  }
-
-tab
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+        //remove highlight from all tablinks
+        tablinks[i].className = tablinks[i].className.replace(" btn-primary", " btn-outline-primary");
+    }
+    //make tablink clicked highlighted
+    document.getElementById(tabLinkName).classList.remove("btn-outline-primary");
+    document.getElementById(tabLinkName).classList.add("btn-primary");
 }
-
-<button class="tablinks" onclick="openTab(event, 'Before Trip')" id="defaultOpen">Before Trip</button>
-
-<script>
-document.getElementByID("defaultOpen").click();
-</script>
-

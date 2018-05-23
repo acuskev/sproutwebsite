@@ -1,26 +1,22 @@
 body {
     background-color: white;
     font-family: "Lato";
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /** Title Heading **/
 h1 {
-    font-size: 100px;
+    font-size: 80px;
     color: white;
-    width: 100vw;
+    /**width: 100vw;
     height: 100vh;
     display: table-cell;
-    vertical-align:middle;
+    vertical-align:middle;**/
     text-align:center;
 }
-
 
 /** Section Headings **/
 h2 {
@@ -29,13 +25,15 @@ h2 {
   vertical-align:middle;
   font-size: 24px;
   color: rgb(41, 160, 158);
-  font-weight: 900;
+}
+
+h3 {
+
 }
 
 footer {
   font-family: 'Lato';
   color: black;
-  font-weight: bold;
   background-color: black;
 }
 
@@ -44,18 +42,13 @@ footer {
 }
 
 
-.text-field {
-  float: left;
-  width: 48%;
-  margin: 1%;
-
-}
 #section-1 {
-    background-color: #204d74;
+  /**  background-color: #204d74; **/
     /**background: linear-gradient(45deg, #2080ad, #f85060);**/
     background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
-    font-family: "Lato";
 }
+
+
 
 #section-2 {
     background-color: white;
@@ -68,24 +61,42 @@ footer {
     padding: 40px 100px;
     color: black;
 }
+
+#border-right {
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
 #section-4 {
     background-color: lightgrey;
     text-align: center;
     padding: 40px 100px;
     color: black;
+}
 
+.tab {
+  margin: 0 60 60 60;
+  padding: 60 60;
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  height: 400px;
+
+}
+
+.tab-bar{
+  margin-top: 60px;
+  margin-left: 60px;
 }
 
 .inner {
   margin: auto;
 }
 
-
-#logo {
-  text-align: center;
-  padding: 10px;
+#title {
+  padding: 20px;
 }
-
 .text-field {
   float: left;
   width: 48%;
@@ -204,18 +215,13 @@ a:hover {
   color: white;
 }
 
-#section-5 {
-  height: 100%;
-  background-color: pink;
-}
-
 .wrapper {
   padding: 30px 60px;
 }
 
 .center-wrapper {
   text-align: center;
-  padding: 30px 60px;
+  padding: 60px 60px;
 }
 
 
@@ -231,7 +237,7 @@ input[type=text], textarea {
 
 #name, #email {
     display: inline-block;
-    width: 49.86%;
+    width: 100%;
 }
 #message {
   width: 100%;
@@ -291,19 +297,3 @@ input[type=submit] {
     max-width: 100%;
   }
 }
-/**
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-    display:inline-block;
-    margin: 0 auto;
-}
-**/
